@@ -84,12 +84,6 @@ void	move_top_one_a(t_pilha *a, int element)
 	}
 }
 
-// move_to_top(*a, *b, more_cheapest_node(*a),
-// 	target(*b, more_cheapest_node(*a)));
-// if (is_higher(more_cheapest_node(*a), *b))
-// 	rb(*b);
-// all_set(*a, *b);	
-
 void	sort_general(t_pilha **a, t_pilha **b)
 {
 	pb(*a, *b);

@@ -39,9 +39,9 @@ void	check(t_pilha *a, t_pilha *b, char **av)
 		verification(buffer, a, b);
 	}
 	if (is_sorted(a))
-		printf("OK\n");
+		printf("\033[32mOK\033[0m\n");
 	else
-		printf("KO\n");
+		printf("\033[31mKO\033[0m\n");
 }
 
 void	ft_putstr(char *str)
@@ -60,7 +60,7 @@ void	pre_error(int alter)
 	char	buffer[1024];
 
 	if (alter != 1)
-		ft_putstr("Error\n");
+		ft_putstr("\033[31mError\033[0m\n");
 	if (alter >= 3)
 	{
 		while (fgets(buffer, sizeof(buffer), stdin) != NULL)
