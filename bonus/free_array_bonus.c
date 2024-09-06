@@ -21,4 +21,3 @@ void	free_arr(char **av)
 		free(av[i++]);
 	free(av);
 }
-
