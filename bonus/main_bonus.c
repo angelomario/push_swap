@@ -91,7 +91,7 @@ int	main(int argc, char *argv[])
 	{
 		free(a);
 		free(b);
-		free_matrix(argv, argc + 2);
+		free_arr(argv);
 		pre_error(3);
 	}
 	a = ft_init_stack(&a, argv);

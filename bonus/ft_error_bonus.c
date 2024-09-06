@@ -12,7 +12,6 @@
 
 #include "../includes/push_swap_bonus.h"
 
-// check if the *a stack contains repeated numbers
 int	error_repeatint(t_pilha *a, int nbr)
 {
 	t_stack	*tmp;

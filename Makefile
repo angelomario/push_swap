@@ -25,7 +25,7 @@ FILES_B = op_s_p_bonus.c stack_change_bonus.c ft_error_bonus.c\
 		ft_init_stack_bonus.c verification_bonus.c\
 		main_bonus.c utils_bonus.c\
 		op_r_bonus.c push_swap_init_bonus.c\
-		op_rr_bonus.c
+		op_rr_bonus.c free_array_bonus.c
 FILES = ft_init_stack.c op_rr.c utils2.c push_swap_in_5.c sort.c\
 		utils3.c ft_error.c main.c op_r.c op_s_p.c\
 		push_swap_in_3.c push_swap_init.c stack_change.c utils.c

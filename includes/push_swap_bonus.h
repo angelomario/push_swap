@@ -72,6 +72,7 @@ int				count_matrix(char **av);
 int				is_sorted(t_pilha *a);
 void			rotate(t_pilha *stack);
 int				compare_str(char *s1, char *s2);
+void			free_arr(char **av);
 
 // Error
 void			free_stack(t_pilha **stack);
